@@ -4,8 +4,8 @@
 @source "../../../content/**/*";
 
 @theme static {
-  --font-sans: 'Public Sans', sans-serif;
-  --font-serif: 'Instrument Serif', serif;
+  --font-sans: 'Heebo', sans-serif;
+  --font-serif: 'Heebo', sans-serif;
 }
 
 :root {

@@ -1,55 +1,54 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "אופיר מירזנדה - סטודנטית לעיצוב פנים"
+  description: "אני אופיר מירזנדה, סטודנטית לעיצוב פנים המתמחה בתכנון חללים המשלבים פונקציונליות, אסתטיקה וחשיבה יצירתית."
+title: "שלום, אני אופיר מירזנדה"
+description: "אני סטודנטית לעיצוב פנים, המתמחה בתכנון חללים המשלבים פונקציונליות, אסתטיקה וחשיבה יצירתית. בכל פרויקט אני שואפת לייצר חוויה מעוצבת ומדויקת, המותאמת לצרכים ולחלומות של הלקוחות."
 hero:
   links:
-    - label: "Use this template"
+    - label: "השתמש בתבנית זו"
       to: https://github.com/nuxt-ui-templates/portfolio
       color: "neutral"
   images:
     - src: /hero/random-1.avif
-      alt: Random Image 1
+      alt: תמונה אקראית 1
     - src: /hero/random-2.avif
-      alt: Random Image 2
+      alt: תמונה אקראית 2
     - src: /hero/random-3.avif
-      alt: Random Image 3
+      alt: תמונה אקראית 3
     - src: /hero/random-4.avif
-      alt: Random Image 4
+      alt: תמונה אקראית 4
     - src: /hero/random-5.avif
-      alt: Random Image 5
+      alt: תמונה אקראית 5
     - src: /hero/random-6.avif
-      alt: Random Image 6
+      alt: תמונה אקראית 6
     - src: /hero/random-7.avif
-      alt: Random Image 7
+      alt: תמונה אקראית 7
     - src: /hero/random-8.avif
-      alt: Random Image 8
+      alt: תמונה אקראית 8
     - src: /hero/random-9.avif
-      alt: Random Image 9
+      alt: תמונה אקראית 9
 about:
-  title: "About Me"
+  title: "קצת עליי"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    כמפתח Full Stack עם 6 שנות ניסיון, אני מביא תואר בהנדסת תוכנה ממכון הטכנולוגי לישראל לידי ביטוי בכל פרויקט. אני בונה מוצרים דיגיטליים שמשלבים חשיבה עיצובית עם יישום טכני מעמיק.
 experience:
-  title: Work Experience
+  title: ניסיון מקצועי
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "מפתח Frontend בכיר ב"
+      date: "2023 - היום"
       company:
         name: Nuxt
         logo: "i-simple-icons-nuxtdotjs"
         url: "https://nuxt.com"
         color: "#00DC82"
-    - position: "Assets Designer at"
+    - position: "מפתח Full Stack ב"
       date: "2022 - 2023"
       company:
         name: Raycast
         logo: "i-simple-icons-raycast"
         url: "https://raycast.com"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
+    - position: "מפתח Frontend בכיר ב"
       date: "2020 - 2021"
       company:
         name: Linear
@@ -57,64 +56,61 @@ experience:
         url: "https://linear.app"
         color: "#5E6AD2"
 testimonials:
-  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+  - quote: "אופיר שינה לנו לחלוטין את המוצר. יש לו יכולת נדירה לאזן בין אסתטיקה מרשימה לפשטות פונקציונלית. העיצוב מחדש לא רק נראה טוב יותר — הוא הפחית את פניות התמיכה ב-40% והגדיל את שיעורי ההמרה בכל מדדי המפתח."
     author:
-      name: 'Sarah Chen'
-      description: 'Product Director at Bloom Finance'
+      name: 'שרה כהן'
+      description: 'מנהלת מוצר ב-Bloom Finance'
       avatar:
         src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+  - quote: "העבודה עם אופיר הייתה ההחלטה הטובה ביותר שקיבלנו עבור הסטארט-אפ שלנו. הוא לא רק סיפק עיצובים — הוא ערער את ההנחות שלנו, ביצע מחקר משתמש מעמיק ויצר חוויה שהדהדה באמת אצל הקהל שלנו."
     author:
-      name: 'Michael Rodriguez'
-      description: 'Co-founder of Wavelength Music'
+      name: 'מיכאל רודריגז'
+      description: 'מייסד שותף של Wavelength Music'
       avatar:
         src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+  - quote: "אופיר מצטיין ביכולתו לתרגם נתוני קיימות מורכבים לממשקים אינטואיטיביים. עבודתו על EcoTrack לא רק הייתה מרהיבה חזותית — היא שינתה ממש את האופן שבו המשתמשים שלנו מתקשרים עם מידע סביבתי."
     author:
-      name: 'Dr. Aisha Johnson'
-      description: 'Chief Innovation Officer at GreenTech Solutions'
+      name: 'ד"ר עישה ג''ונסון'
+      description: 'מנהלת חדשנות ראשית ב-GreenTech Solutions'
       avatar:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
-blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
 faq:
-  title: Frequently Asked Questions
-  description: Answers to common questions about my process and services.
+  title: שאלות נפוצות
+  description: תשובות לשאלות הנפוצות על תהליך העבודה והשירותים שלי.
   categories:
-    - title: Services & Process
+    - title: שירותים ותהליך
       questions:
-        - label: What services do you offer?
+        - label: אילו שירותים אתה מציע?
           content: |
-            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
-        - label: What is your design process like?
+            אני מתמחה בפיתוח Full Stack וב-UX/UI. זה כולל מחקר משתמשים, אפיון, אב-טיפוס אינטראקטיבי, בניית ממשקי משתמש, פיתוח אפליקציות ואתרים רספונסיביים (בעיקר עם Vue.js/Nuxt.js), ופיתוח מערכות עיצוב. המטרה שלי היא ליצור חוויות דיגיטליות שלמות — מהרעיון ועד לפריסה.
+        - label: איך נראה תהליך העבודה שלך?
           content: |
-            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
-        - label: Do you work with startups?
+            התהליך שלי שיתופי ואיטרטיבי, וכולל בדרך כלל שלבים כמו גילוי ומחקר, יצירת רעיונות ואב-טיפוס, בדיקות משתמשים, עיצוב חזותי ושיתוף פעולה הדוק עם צוותי פיתוח. אני מתאים את התהליך לצרכי הפרויקט, תוך מיקוד תמידי בפתרונות ממוקדי משתמש.
+        - label: האם אתה עובד עם סטארט-אפים?
           content: |
-            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
-    - title: Pricing & Timelines
+            בהחלט! אני אוהב לעבוד עם סטארט-אפים כדי לעצב את חזון המוצר שלהם ולייצר ממשקים ידידותיים למשתמש מהיסוד. אני יכול להתאים את התהליך לסביבת הסטארט-אפ המהירה.
+    - title: תמחור ולוחות זמנים
       questions:
-        - label: How much does a project typically cost?
+        - label: כמה עולה פרויקט אופייני?
           content: |
-            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
-        - label: What are your payment terms?
+            עלויות הפרויקט משתנות בהתאם להיקף, מורכבות, תכונות ולוח הזמנים. עבור פרויקטי Full Stack מקיפים, ההתקשרויות שלי מתחילות בדרך כלל מ-₪18,000, עם ממוצע בין ₪30,000 ל-₪90,000. עבור ייעוץ או משימות ספציפיות, שיעור היומי שלי הוא ₪2,500.
+        - label: מהם תנאי התשלום שלך?
           content: |
-            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
-        - label: How long does a typical project take?
+            בדרך כלל אני מבקש מקדמה של 40% לתזמון הפרויקט ותחילת העבודה, עם 60% הנותרים לאחר השלמת הפרויקט ומסירתו. אני מקבל תשלומים בהעברה בנקאית.
+        - label: כמה זמן לוקח פרויקט אופייני?
           content: |
-            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
-        - label: Do you offer retainers or ongoing support?
+            לוחות הזמנים תלויים מאוד בהיקף הפרויקט ובמורכבותו. פרויקטים קטנים יותר עשויים להימשך 3-4 שבועות, בעוד שפרויקטים גדולים יותר יכולים לנוע בין חודשיים לארבעה חודשים. אני תמיד מספק הערכת לוח זמנים מפורטת לאחר שלב הגילוי הראשוני.
+        - label: האם אתה מציע תמיכה שוטפת?
           content: |
-            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
-    - title: About Me
+            כן, ללקוחות הזקוקים לתמיכת פיתוח שוטפת, פיתוח תכונות או תחזוקה, אני מציע אפשרויות ריטיינר חודשי המותאמות לצרכים ספציפיים. בואו נדבר אם זה משהו שמעניין אותך.
+    - title: אודות
       questions:
-        - label: What do you enjoy most about your work?
+        - label: מה הדבר שאתה הכי אוהב בעבודה שלך?
           content: |
-            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
-        - label: What are your hobbies outside of work?
+            אני אוהב את האתגר של פתרון בעיות מורכבות דרך עיצוב וטכנולוגיה. זה מתגמל להפליא לראות אנשים מתקשרים עם משהו שיצרתי ומוצאים אותו שימושי ונוח לשימוש. גישור הפער בין צרכי המשתמשים לאפשרויות הטכניות הוא מה שמלהיב אותי באמת.
+        - label: מה התחביבים שלך מחוץ לעבודה?
           content: |
-            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
+            כשאני לא מפתח או מעצב, אפשר למצוא אותי חוקר שכונות תל אביביות, מנסה בתי קפה חדשים, או מטייל בטבע. אני גם נלהב מצילום ולעתים תורם לפרויקטי קוד פתוח.

@@ -31,8 +31,8 @@ useSeoMeta({
       :description="page.description"
       :links="page.links"
       :ui="{
-        title: '!mx-0 text-left',
-        description: '!mx-0 text-left',
+        title: '!mx-0 text-start',
+        description: '!mx-0 text-start',
         links: 'justify-start'
       }"
     >
@@ -91,7 +91,7 @@ useSeoMeta({
               View Project
               <UIcon
                 name="i-lucide-arrow-right"
-                class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
+                class="size-4 text-primary transition-all opacity-0 rtl:-scale-x-100 group-hover:translate-x-1 rtl:group-hover:-translate-x-1 group-hover:opacity-100"
               />
             </ULink>
           </template>
