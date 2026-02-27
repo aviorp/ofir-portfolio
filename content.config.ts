@@ -57,7 +57,7 @@ export default defineContentConfig({
             })
           }))
         }),
-        testimonials: z.array(createTestimonialSchema()),
+        testimonials: z.array(createTestimonialSchema()).optional(),
         faq: createBaseSchema().extend({
           categories: z.array(
             z.object({
@@ -69,7 +69,7 @@ export default defineContentConfig({
                 })
               )
             }))
-        })
+        }).optional()
       })
     }),
     projects: defineCollection({
@@ -79,9 +79,17 @@ export default defineContentConfig({
         title: z.string().nonempty(),
         description: z.string().nonempty(),
         image: z.string().nonempty().editor({ input: 'media' }),
-        url: z.string().nonempty(),
+        url: z.string().optional(),
         tags: z.array(z.string()),
-        date: z.date()
+        date: z.string().nonempty(),
+        images: z.array(z.object({
+          src: z.string().editor({ input: 'media' }),
+          alt: z.string()
+        })).optional(),
+        pdfs: z.array(z.object({
+          title: z.string(),
+          src: z.string()
+        })).optional()
       })
     }),
     pages: defineCollection({

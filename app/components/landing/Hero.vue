@@ -33,12 +33,11 @@ defineProps<{
           delay: 0.1
         }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
+        <img
+          :src="global.picture?.light!"
           :alt="global.picture?.alt!"
-        />
+          class="size-18 rounded-full object-cover ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
+        >
       </Motion>
     </template>
 
@@ -111,7 +110,7 @@ defineProps<{
             variant="ghost"
             class="gap-2"
             :to="global.available ? global.meetingLink : ''"
-            :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
+            :label="global.available ? 'זמינה לפרויקטים חדשים' : 'לא זמינה כרגע'"
           >
             <template #leading>
               <span class="relative flex size-2">
@@ -129,31 +128,6 @@ defineProps<{
         </div>
       </Motion>
 
-      <div class="gap-x-4 inline-flex mt-4">
-        <Motion
-          v-for="(link, index) of footer?.links"
-          :key="index"
-
-          :initial="{
-            scale: 1.1,
-            opacity: 0,
-            filter: 'blur(20px)'
-          }"
-          :animate="{
-            scale: 1,
-            opacity: 1,
-            filter: 'blur(0px)'
-          }"
-          :transition="{
-            duration: 0.6,
-            delay: 0.5 + index * 0.1
-          }"
-        >
-          <UButton
-            v-bind="{ size: 'md', color: 'neutral', variant: 'ghost', ...link }"
-          />
-        </Motion>
-      </div>
     </template>
 
     <UMarquee

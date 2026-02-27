@@ -1,12 +1,12 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      light: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: 'תמונת הפרופיל שלי'
+      dark: '/ofir.png',
+      light: '/ofir.png',
+      alt: 'אופיר מירזנדה'
     },
-    meetingLink: 'https://cal.com/',
-    email: 'ofir@example.com',
+    meetingLink: 'https://wa.link/vxysq6',
+    email: 'ofir4215@gmail.com',
     available: true
   },
   ui: {
@@ -23,23 +23,8 @@ export default defineAppConfig({
     }
   },
   footer: {
-    credits: `נבנה עם Nuxt UI • © ${new Date().getFullYear()}`,
+    credits: `© ${new Date().getFullYear()} אופיר מירזנדה — כל הזכויות שמורות`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com',
-      'target': '_blank',
-      'aria-label': 'GitHub'
-    }, {
-      'icon': 'i-simple-icons-linkedin',
-      'to': 'https://linkedin.com',
-      'target': '_blank',
-      'aria-label': 'LinkedIn'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com',
-      'target': '_blank',
-      'aria-label': 'X (Twitter)'
-    }]
+    links: []
   }
 })

@@ -1,0 +1,43 @@
+title: בית פרטי דו-קומתי
+description: "פרויקט גמר — תכנון אדריכלי מלא לבית פרטי דו-קומתי הכולל תוכניות קומות מפורטות עם מידות, חתכים אורכיים ורוחביים, פרטי נגרות מותאמים (ארונות תצוגה, מדפים), עיצוב מטבח עם אי מרכזי, חדרי רחצה, והדמיות תלת-ממדיות מלאות בפנים ובחוץ. הפרויקט בוצע ב-SketchUp ו-AutoCAD."
+image: /projects/private-house/3d-overview.jpeg
+tags: ["פרויקט גמר", "תכנון אדריכלי", "עיצוב פנים", "SketchUp", "AutoCAD", "הדמיות תלת-ממד", "נגרות"]
+date: "2025"
+images:
+  - src: /projects/private-house/3d-overview.jpeg
+    alt: תוכניות קומה מרונדרות עם מבט איזומטרי תלת-ממדי של הבית
+  - src: /projects/private-house/ground-floor-plan.jpeg
+    alt: תוכנית קומת קרקע מפורטת עם מידות — סלון, מטבח, חניה וחצר עם בריכה
+  - src: /projects/private-house/upper-floor-plan.jpeg
+    alt: תוכנית קומה עליונה עם חדרי שינה, חדר רחצה ומרפסת
+  - src: /projects/private-house/bathroom-section.jpeg
+    alt: חתך ותוכנית חדר רחצה קומת קרקע בקנה מידה 1:25, עם פרספקטיבה תלת-ממדית
+  - src: /projects/private-house/kitchen-elevation.jpeg
+    alt: חזית מטבח בקנה מידה 1:25 ופרספקטיבה תלת-ממדית עם אי מרכזי ומקומות ישיבה
+  - src: /projects/private-house/carpentry-details.jpeg
+    alt: פרטי נגרות מותאמים — ארונות תצוגה עם תאורה, מדפים ופתחי זכוכית, בקנה מידה 1:50
+  - src: /projects/private-house/exploded-isometric.jpeg
+    alt: מבט איזומטרי מפורק — גג, קומה עליונה וקומת קרקע עם כל הפרטים הפנימיים
+  - src: /projects/private-house/interior-views.jpeg
+    alt: הדמיות פנים — סלון כפול, מטבח פתוח, פינת אוכל וארון נגרות מותאם
+  - src: /projects/private-house/exterior-views.jpeg
+    alt: הדמיות חוץ ופנים — חזית הבית, חצר, בריכה וסלון מזוויות שונות
+  - src: /projects/private-house/aerial-views.jpeg
+    alt: מבטי אוויר תלת-ממדיים של הבית מזוויות נגדיות — חצר, בריכה וחניה
+pdfs:
+  - title: תוכנית ראשית מעובדת
+    src: /projects/private-house/main-plan.pdf
+  - title: תוכנית להדפסה
+    src: /projects/private-house/print-plan.pdf
+  - title: גיליון פרטים — חתכים, חזיתות ומפרטים
+    src: /projects/private-house/detail-sheet.pdf
+  - title: תוכנית קומת קרקע
+    src: /projects/private-house/ground-floor-plan.pdf
+  - title: חתך רוחבי
+    src: /projects/private-house/cross-section.pdf
+  - title: חתך אורכי
+    src: /projects/private-house/longitudinal-section.pdf
+  - title: הדמיות מסלול גישה
+    src: /projects/private-house/path-renderings.pdf
+  - title: הדמיות גרם מדרגות
+    src: /projects/private-house/staircase-renderings.pdf

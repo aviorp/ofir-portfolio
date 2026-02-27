@@ -1,0 +1,17 @@
+title: עיצוב חנות אופנה
+description: "תכנון ועיצוב חנות אופנה מקצה לקצה — מקונספט עיצובי ועד תוכנית הגשה סופית. הפרויקט כולל תוכנית בקנה מידה 1:50 עם פריסת מתלים, אזורי תצוגה ומדידה, חתך פנימי בקנה מידה 1:20 המציג את גובה המדפים ובובות התצוגה, והדמיות תלת-ממדיות של החלל עם חומריות של עץ, בד ותאורה רכה."
+image: /projects/fashion-store/3d-renders.jpeg
+tags: ["עיצוב מסחרי", "חנות אופנה", "קונספט עיצובי", "הדמיות תלת-ממד", "תוכנית הגשה"]
+date: "2024"
+images:
+  - src: /projects/fashion-store/3d-renders.jpeg
+    alt: הדמיות תלת-ממד של החנות — אזור קופה, וילונות מדידה, תצוגת בגדים ואקססוריז
+  - src: /projects/fashion-store/floor-plan.jpeg
+    alt: תוכנית הגשה בקנה מידה 1:50 — פריסת רהיטים, ספות, מתלים ואזור ישיבה
+  - src: /projects/fashion-store/section-drawing.jpeg
+    alt: חתך פנימי בקנה מידה 1:20 — בובות תצוגה, מתלי בגדים, מדפי תיקים וחדר מדידה
+pdfs:
+  - title: קונספט העמדה — פריסה וזרימת לקוחות
+    src: /projects/fashion-store/concept-layout.pdf
+  - title: פרטי POD — עמדות תצוגה
+    src: /projects/fashion-store/pod-details.pdf
