@@ -27,7 +27,6 @@ useSeoMeta({
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
   twitterCard: 'summary_large_image'
 })
-
 </script>
 
 <template>
@@ -37,6 +36,5 @@ useSeoMeta({
         <NuxtPage />
       </UMain>
     </NuxtLayout>
-
   </UApp>
 </template>

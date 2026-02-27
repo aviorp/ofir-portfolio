@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
 
-const { footer, global } = useAppConfig()
+const { global } = useAppConfig()
 
 defineProps<{
   page: IndexCollectionItem
@@ -127,7 +127,6 @@ defineProps<{
           </UButton>
         </div>
       </Motion>
-
     </template>
 
     <UMarquee

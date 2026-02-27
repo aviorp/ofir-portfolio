@@ -19,7 +19,6 @@ useSeoMeta({
   title: 'הדף לא נמצא',
   description: 'מצטערים, הדף המבוקש לא נמצא.'
 })
-
 </script>
 
 <template>

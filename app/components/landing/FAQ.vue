@@ -26,8 +26,8 @@ const ui = {
 
 <template>
   <UPageSection
-    :title="page.faq.title"
-    :description="page.faq.description"
+    :title="page.faq?.title"
+    :description="page.faq?.description"
     :ui="{
       container: 'px-0 !pt-0 gap-4 sm:gap-4',
       title: 'text-start text-xl sm:text-xl lg:text-2xl font-medium',
